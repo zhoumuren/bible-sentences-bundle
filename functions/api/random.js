@@ -12,9 +12,9 @@ export async function onRequest({ request }) {
   try {
     let list = data;
 
-    // ===== 长度过滤 =====
+    // ===== 长度过滤（基于 verse）=====
     let filtered = list.filter(item => {
-      const len = item.hitokoto?.length || 0;
+      const len = item.verse?.length || 0;
       return len >= minLength && len <= maxLength;
     });
 
@@ -23,19 +23,20 @@ export async function onRequest({ request }) {
     // ===== 随机 =====
     const random = filtered[Math.floor(Math.random() * filtered.length)];
 
+    // ===== 输出（兼容 hitokoto）=====
     const result = {
       id: random.id,
       uuid: random.uuid,
-      hitokoto: random.hitokoto,
-      from: random.from,
-      from_who: random.from_who || "圣经",
-      type: random.type || "top500"
+      hitokoto: random.verse,
+      from: random.reference,
+      from_who: "圣经",
+      type: "bible"
     };
 
     // ===== 文本输出 =====
     if (encode === "text") {
       return new Response(
-        result.hitokoto + (result.from ? " —— " + result.from : ""),
+        result.hitokoto + " —— " + result.from,
         {
           headers: {
             "content-type": `text/plain; charset=${charset}`
