@@ -12,13 +12,17 @@
       padding: 50px;
       background: #f7f7f7;
     }
+
     #text {
       font-size: 24px;
       margin-bottom: 20px;
+      transition: opacity 0.5s;
     }
+
     #ref {
       color: #666;
     }
+
     button {
       margin-top: 30px;
       padding: 10px 20px;
@@ -35,26 +39,49 @@
   <div id="text">加载中...</div>
   <div id="ref"></div>
 
-  <button onclick="loadVerse()">换一句</button>
+  <button id="btn">换一句</button>
 
   <script>
+    let timer = null;
+
     async function loadVerse() {
+      const textEl = document.getElementById('text');
+
       try {
-        const res = await fetch('/sentences/pentateuch.json')
-        const data = await res.json()
+        textEl.style.opacity = 0;
 
-        const random = data[Math.floor(Math.random() * data.length)]
+        const res = await fetch('/sentences/pentateuch.json');
+        const data = await res.json();
 
-        // ✅ 关键修复：使用 bibleverses
-        document.getElementById('text').innerText = random.bibleverses
-        document.getElementById('ref').innerText = random.from || ''
+        const random = data[Math.floor(Math.random() * data.length)];
+
+        setTimeout(() => {
+          document.getElementById('text').innerText = random.bibleverses;
+          document.getElementById('ref').innerText = random.from || '';
+          textEl.style.opacity = 1;
+        }, 200);
+
       } catch (e) {
-        document.getElementById('text').innerText = '加载失败'
-        console.error(e)
+        document.getElementById('text').innerText = '加载失败';
+        console.error(e);
       }
     }
 
-    loadVerse()
+    // ✅ 自动轮播（5秒）
+    function startAutoPlay() {
+      timer = setInterval(loadVerse, 5000);
+    }
+
+    // ✅ 初始化
+    loadVerse();
+    startAutoPlay();
+
+    // ✅ 手动点击（重置计时）
+    document.getElementById('btn').addEventListener('click', () => {
+      loadVerse();
+      clearInterval(timer);
+      startAutoPlay();
+    });
   </script>
 
 </body>
