@@ -1,74 +1,87 @@
 export async function onRequest({ request }) {
   const url = new URL(request.url);
 
-  // 👉 参数（兼容 hitokoto 风格）
-  const book = url.searchParams.get("book");   // 单卷
-  const c = url.searchParams.get("c");         // 分类（类似 hitokoto）
-  const encode = url.searchParams.get("encode"); // text / json
+  // ===== 参数 =====
+  const c = url.searchParams.get("c"); // 分类（hitokoto风格）
+  const encode = url.searchParams.get("encode") || "json";
+  const charset = url.searchParams.get("charset") || "utf-8";
+  const minLength = parseInt(url.searchParams.get("min_length") || "0");
+  const maxLength = parseInt(url.searchParams.get("max_length") || "999");
 
-  // 👉 分类映射
+  // ===== 分类映射（你可以继续扩展）=====
   const categoryMap = {
     p: ["genesis", "exodus", "leviticus", "numbers", "deuteronomy"], // 摩西五经
     g: ["matthew", "mark", "luke", "john"], // 福音书
   };
 
-  let booksToLoad = [];
-
-  if (c && categoryMap[c]) {
-    booksToLoad = categoryMap[c];
-  } else if (book) {
-    booksToLoad = [book];
-  } else {
-    booksToLoad = ["genesis"]; // 默认
-  }
+  let books = categoryMap[c] || ["genesis"]; // 默认创世记
 
   let allData = [];
 
   try {
-    // 👉 加载多个 JSON
-    for (const b of booksToLoad) {
+    // ===== 加载数据 =====
+    for (const book of books) {
       try {
-        const res = await fetch(`${url.origin}/sentences/${b}.json`);
+        const res = await fetch(`${url.origin}/sentences/${book}.json`);
         if (!res.ok) continue;
 
         const data = await res.json();
         if (Array.isArray(data)) {
           allData = allData.concat(data);
         }
-      } catch (e) {
-        // 忽略单个错误
-      }
+      } catch (e) {}
     }
 
-    // 👉 fallback
+    // fallback
     if (allData.length === 0) {
       const res = await fetch(`${url.origin}/sentences/genesis.json`);
       allData = await res.json();
     }
 
-    // 👉 随机
-    const random = allData[Math.floor(Math.random() * allData.length)];
+    // ===== 长度过滤 =====
+    let filtered = allData.filter(item => {
+      const len = item.length || item.bibleverses?.length || 0;
+      return len >= minLength && len <= maxLength;
+    });
 
-    // 👉 encode=text（完全模仿 hitokoto）
+    if (filtered.length === 0) filtered = allData;
+
+    // ===== 随机 =====
+    const random = filtered[Math.floor(Math.random() * filtered.length)];
+
+    // ===== 兼容 hitokoto 返回字段 =====
+    const result = {
+      id: random.id,
+      uuid: random.uuid,
+      hitokoto: random.bibleverses, // ⭐关键：兼容字段
+      from: random.from,
+      type: random.type,
+      creator: "bible",
+      length: random.length || random.bibleverses.length
+    };
+
+    // ===== encode=text =====
     if (encode === "text") {
       return new Response(
-        random.bibleverses + (random.from ? " —— " + random.from : ""),
+        result.hitokoto + (result.from ? " —— " + result.from : ""),
         {
-          headers: { "content-type": "text/plain; charset=utf-8" }
+          headers: {
+            "content-type": `text/plain; charset=${charset}`
+          }
         }
       );
     }
 
-    // 👉 默认 JSON（扁平结构）
-    return new Response(JSON.stringify(random), {
+    // ===== JSON 输出 =====
+    return new Response(JSON.stringify(result), {
       headers: {
-        "content-type": "application/json"
+        "content-type": `application/json; charset=${charset}`
       }
     });
 
   } catch (e) {
     return new Response(JSON.stringify({
-      error: "系统错误",
+      error: "服务器错误",
       detail: e.toString()
     }), {
       headers: {
