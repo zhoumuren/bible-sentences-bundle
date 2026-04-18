@@ -1,31 +1,34 @@
 export async function onRequest({ request }) {
   const url = new URL(request.url);
-  let book = url.searchParams.get("book") || "genesis";
 
-  // 分类映射（核心升级）
+  // 👉 参数（兼容 hitokoto 风格）
+  const book = url.searchParams.get("book");   // 单卷
+  const c = url.searchParams.get("c");         // 分类（类似 hitokoto）
+  const encode = url.searchParams.get("encode"); // text / json
+
+  // 👉 分类映射
   const categoryMap = {
-    pentateuch: ["genesis", "exodus", "leviticus", "numbers", "deuteronomy"],
-    gospels: ["matthew", "mark", "luke", "john"]
+    p: ["genesis", "exodus", "leviticus", "numbers", "deuteronomy"], // 摩西五经
+    g: ["matthew", "mark", "luke", "john"], // 福音书
   };
 
-  // 判断是否是分类
   let booksToLoad = [];
 
-  if (categoryMap[book]) {
-    booksToLoad = categoryMap[book];
-  } else {
+  if (c && categoryMap[c]) {
+    booksToLoad = categoryMap[c];
+  } else if (book) {
     booksToLoad = [book];
+  } else {
+    booksToLoad = ["genesis"]; // 默认
   }
 
   let allData = [];
 
   try {
-    // 读取多个文件
+    // 👉 加载多个 JSON
     for (const b of booksToLoad) {
       try {
-        const apiUrl = `${url.origin}/sentences/${b}.json`;
-        const res = await fetch(apiUrl);
-
+        const res = await fetch(`${url.origin}/sentences/${b}.json`);
         if (!res.ok) continue;
 
         const data = await res.json();
@@ -33,24 +36,31 @@ export async function onRequest({ request }) {
           allData = allData.concat(data);
         }
       } catch (e) {
-        // 忽略单个文件错误
+        // 忽略单个错误
       }
     }
 
-    // 如果没有数据，fallback 到 genesis
+    // 👉 fallback
     if (allData.length === 0) {
-      const fallback = await fetch(`${url.origin}/sentences/genesis.json`);
-      allData = await fallback.json();
+      const res = await fetch(`${url.origin}/sentences/genesis.json`);
+      allData = await res.json();
     }
 
-    // 随机一句
+    // 👉 随机
     const random = allData[Math.floor(Math.random() * allData.length)];
 
-    return new Response(JSON.stringify({
-      book: book,
-      count: allData.length,
-      data: random
-    }), {
+    // 👉 encode=text（完全模仿 hitokoto）
+    if (encode === "text") {
+      return new Response(
+        random.bibleverses + (random.from ? " —— " + random.from : ""),
+        {
+          headers: { "content-type": "text/plain; charset=utf-8" }
+        }
+      );
+    }
+
+    // 👉 默认 JSON（扁平结构）
+    return new Response(JSON.stringify(random), {
       headers: {
         "content-type": "application/json"
       }
