@@ -1,92 +1,82 @@
 [
   {
     "id": 1,
-    "uuid": "pentateuch-1",
-    "bibleverses": "起初神创造天地。",
-    "reference": "创世记 1:1",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 8
+    "uuid": "top500-1",
+    "hitokoto": "起初神创造天地。",
+    "from": "创世记 1:1",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 2,
-    "uuid": "pentateuch-2",
-    "bibleverses": "神说：要有光，就有了光。",
-    "reference": "创世记 1:3",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 13
+    "uuid": "top500-2",
+    "hitokoto": "神说：要有光，就有了光。",
+    "from": "创世记 1:3",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 3,
-    "uuid": "pentateuch-3",
-    "bibleverses": "神就照着自己的形像造人，乃是照着他的形像造男造女。",
-    "reference": "创世记 1:27",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 28
+    "uuid": "top500-3",
+    "hitokoto": "神就照着自己的形像造人，乃是照着他的形像造男造女。",
+    "from": "创世记 1:27",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 4,
-    "uuid": "pentateuch-4",
-    "bibleverses": "耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人，名叫亚当。",
-    "reference": "创世记 2:7",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 41
+    "uuid": "top500-4",
+    "hitokoto": "耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人，名叫亚当。",
+    "from": "创世记 2:7",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 5,
-    "uuid": "pentateuch-5",
-    "bibleverses": "因此，人要离开父母与妻子连合，二人成为一体。",
-    "reference": "创世记 2:24",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 22
+    "uuid": "top500-5",
+    "hitokoto": "因此，人要离开父母与妻子连合，二人成为一体。",
+    "from": "创世记 2:24",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 6,
-    "uuid": "pentateuch-6",
-    "bibleverses": "亚伯兰信耶和华，耶和华就以此为他的义。",
-    "reference": "创世记 15:6",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 20
+    "uuid": "top500-6",
+    "hitokoto": "亚伯兰信耶和华，耶和华就以此为他的义。",
+    "from": "创世记 15:6",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 7,
-    "uuid": "pentateuch-7",
-    "bibleverses": "耶和华岂有难成的事吗？",
-    "reference": "创世记 18:14",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 12
+    "uuid": "top500-7",
+    "hitokoto": "耶和华岂有难成的事吗？",
+    "from": "创世记 18:14",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 8,
-    "uuid": "pentateuch-8",
-    "bibleverses": "神对摩西说：我是自有永有的。",
-    "reference": "出埃及记 3:14",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 16
+    "uuid": "top500-8",
+    "hitokoto": "神对摩西说：我是自有永有的。",
+    "from": "出埃及记 3:14",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 9,
-    "uuid": "pentateuch-9",
-    "bibleverses": "日间耶和华在云柱中领他们的路，夜间在火柱中光照他们，使他们日夜都可以行走。",
-    "reference": "出埃及记 13:21",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 34
+    "uuid": "top500-9",
+    "hitokoto": "日间耶和华在云柱中领他们的路，夜间在火柱中光照他们，使他们日夜都可以行走。",
+    "from": "出埃及记 13:21",
+    "type": "top500",
+    "from_who": "圣经"
   },
   {
     "id": 10,
-    "uuid": "pentateuch-10",
-    "bibleverses": "除了我以外，你不可有别的神。",
-    "reference": "出埃及记 20:3",
-    "type": "pentateuch",
-    "creator": "bible",
-    "length": 16
+    "uuid": "top500-10",
+    "hitokoto": "除了我以外，你不可有别的神。",
+    "from": "出埃及记 20:3",
+    "type": "top500",
+    "from_who": "圣经"
   }
 ]
