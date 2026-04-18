@@ -1,54 +1,55 @@
+import data from '../sentences/top500.json';
+
 export async function onRequest({ request }) {
   const url = new URL(request.url);
 
-  // ⭐ 支持 ?type=xxx
-  const type = url.searchParams.get("type");
-
-  // ⭐ 所有分类（与你仓库一致）
-  const categories = [
-    "acts",
-    "general_epistles",
-    "gospels",
-    "historical",
-    "major_prophets",
-    "minor_prophets",
-    "pauline_epistles",
-    "pentateuch",
-    "revelation",
-    "wisdom"
-  ];
+  // ===== 参数 =====
+  const encode = url.searchParams.get("encode") || "json";
+  const charset = url.searchParams.get("charset") || "utf-8";
+  const minLength = parseInt(url.searchParams.get("min_length") || "0");
+  const maxLength = parseInt(url.searchParams.get("max_length") || "999");
 
   try {
-    // ===== 1️⃣ 确定使用哪个分类 =====
-    let selectedCategory;
+    let list = data;
 
-    if (type && categories.includes(type)) {
-      selectedCategory = type; // 指定分类
-    } else {
-      selectedCategory = categories[Math.floor(Math.random() * categories.length)]; // 随机分类
-    }
+    // ===== 长度过滤 =====
+    let filtered = list.filter(item => {
+      const len = item.verse?.length || 0;
+      return len >= minLength && len <= maxLength;
+    });
 
-    // ===== 2️⃣ 加载 JSON =====
-    const res = await fetch(`${url.origin}/sentences/${selectedCategory}.json`);
-    if (!res.ok) {
-      throw new Error("JSON 文件加载失败: " + selectedCategory);
-    }
+    if (filtered.length === 0) filtered = list;
 
-    const data = await res.json();
+    // ===== 随机 =====
+    const random = filtered[Math.floor(Math.random() * filtered.length)];
 
-    // ===== 3️⃣ 随机一条 =====
-    const random = data[Math.floor(Math.random() * data.length)];
-
-    // ===== 4️⃣ 标准输出（你的API规范） =====
+    // ===== 输出（统一API格式）=====
     const result = {
-      bibleverses: random.bibleverses,
-      reference: random.from,
-      category: selectedCategory
+      id: random.id,
+      uuid: random.uuid,
+      hitokoto: random.verse,
+      from: random.reference,
+      from_who: "圣经",
+      type: "bible"
     };
 
+    // ===== 文本输出 =====
+    if (encode === "text") {
+      return new Response(
+        result.hitokoto + " —— " + result.from,
+        {
+          headers: {
+            "content-type": `text/plain; charset=${charset}`
+          }
+        }
+      );
+    }
+
+    // ===== JSON输出 =====
     return new Response(JSON.stringify(result), {
       headers: {
-        "Content-Type": "application/json"
+        "content-type": `application/json; charset=${charset}`,
+        "Access-Control-Allow-Origin": "*"
       }
     });
 
@@ -58,7 +59,7 @@ export async function onRequest({ request }) {
       detail: e.toString()
     }), {
       headers: {
-        "Content-Type": "application/json"
+        "content-type": "application/json"
       }
     });
   }
