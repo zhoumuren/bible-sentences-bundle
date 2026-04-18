@@ -45,10 +45,12 @@
 
         const random = data[Math.floor(Math.random() * data.length)]
 
-        document.getElementById('text').innerText = random.text || random.hitokoto
+        // ✅ 关键修复：使用 bibleverses
+        document.getElementById('text').innerText = random.bibleverses
         document.getElementById('ref').innerText = random.from || ''
       } catch (e) {
         document.getElementById('text').innerText = '加载失败'
+        console.error(e)
       }
     }
 
