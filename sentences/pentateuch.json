@@ -2,7 +2,7 @@
   {
     "id": 1,
     "uuid": "genesis-1",
-    "hitokoto": "起初，神创造天地。",
+    "bibleverses": "起初，神创造天地。",
     "type": "genesis",
     "from": "创世记 1:1",
     "creator": "bible",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "uuid": "genesis-2",
-    "hitokoto": "神说：“要有光”，就有了光。",
+    "bibleverses": "神说：“要有光”，就有了光。",
     "type": "genesis",
     "from": "创世记 1:3",
     "creator": "bible",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "uuid": "genesis-3",
-    "hitokoto": "神说：“我们要照着我们的形像、按着我们的样式造人。”",
+    "bibleverses": "神说：“我们要照着我们的形像、按着我们的样式造人。”",
     "type": "genesis",
     "from": "创世记 1:26",
     "creator": "bible",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "uuid": "genesis-4",
-    "hitokoto": "神就照着自己的形像造人，乃是照着他的形像造男造女。",
+    "bibleverses": "神就照着自己的形像造人，乃是照着他的形像造男造女。",
     "type": "genesis",
     "from": "创世记 1:27",
     "creator": "bible",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "uuid": "genesis-5",
-    "hitokoto": "神看着一切所造的都甚好。",
+    "bibleverses": "神看着一切所造的都甚好。",
     "type": "genesis",
     "from": "创世记 1:31",
     "creator": "bible",
@@ -52,17 +52,7 @@
   {
     "id": 6,
     "uuid": "genesis-6",
-    "hitokoto": "到第七日，神造物的工已经完毕，就在第七日安息了。",
-    "type": "genesis",
-    "from": "创世记 2:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 26
-  },
-  {
-    "id": 7,
-    "uuid": "genesis-7",
-    "hitokoto": "耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人。",
+    "bibleverses": "耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人。",
     "type": "genesis",
     "from": "创世记 2:7",
     "creator": "bible",
@@ -70,9 +60,9 @@
     "length": 32
   },
   {
-    "id": 8,
-    "uuid": "genesis-8",
-    "hitokoto": "那人独居不好，我要为他造一个配偶帮助他。",
+    "id": 7,
+    "uuid": "genesis-7",
+    "bibleverses": "那人独居不好，我要为他造一个配偶帮助他。",
     "type": "genesis",
     "from": "创世记 2:18",
     "creator": "bible",
@@ -80,9 +70,9 @@
     "length": 22
   },
   {
-    "id": 9,
-    "uuid": "genesis-9",
-    "hitokoto": "人要离开父母，与妻子连合，二人成为一体。",
+    "id": 8,
+    "uuid": "genesis-8",
+    "bibleverses": "人要离开父母，与妻子连合，二人成为一体。",
     "type": "genesis",
     "from": "创世记 2:24",
     "creator": "bible",
@@ -90,59 +80,9 @@
     "length": 22
   },
   {
-    "id": 10,
-    "uuid": "genesis-10",
-    "hitokoto": "你们不一定死。",
-    "type": "genesis",
-    "from": "创世记 3:4",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 8
-  },
-  {
-    "id": 11,
-    "uuid": "genesis-11",
-    "hitokoto": "女人的后裔要伤你的头；你要伤他的脚跟。",
-    "type": "genesis",
-    "from": "创世记 3:15",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 12,
-    "uuid": "genesis-12",
-    "hitokoto": "你本是尘土，仍要归于尘土。",
-    "type": "genesis",
-    "from": "创世记 3:19",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 16
-  },
-  {
-    "id": 13,
-    "uuid": "genesis-13",
-    "hitokoto": "我岂是看守我兄弟的吗？",
-    "type": "genesis",
-    "from": "创世记 4:9",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 13
-  },
-  {
-    "id": 14,
-    "uuid": "genesis-14",
-    "hitokoto": "以诺与神同行，神将他取去，他就不在世了。",
-    "type": "genesis",
-    "from": "创世记 5:24",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 15,
-    "uuid": "genesis-15",
-    "hitokoto": "惟有挪亚在耶和华眼前蒙恩。",
+    "id": 9,
+    "uuid": "genesis-9",
+    "bibleverses": "惟有挪亚在耶和华眼前蒙恩。",
     "type": "genesis",
     "from": "创世记 6:8",
     "creator": "bible",
@@ -150,280 +90,30 @@
     "length": 16
   },
   {
-    "id": 16,
-    "uuid": "genesis-16",
-    "hitokoto": "地还存留的时候，稼穑、寒暑、冬夏、昼夜就永不停息了。",
+    "id": 10,
+    "uuid": "genesis-10",
+    "bibleverses": "地还存留的时候，稼穑、寒暑、冬夏、昼夜就永不停息了。",
     "type": "genesis",
     "from": "创世记 8:22",
     "creator": "bible",
     "created_at": "0",
     "length": 28
   },
+
   {
-    "id": 17,
-    "uuid": "genesis-17",
-    "hitokoto": "我把虹放在云彩中，这就可作我与地立约的记号了。",
-    "type": "genesis",
-    "from": "创世记 9:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 26
-  },
-  {
-    "id": 18,
-    "uuid": "genesis-18",
-    "hitokoto": "那城名叫巴别，因为耶和华在那里变乱天下人的言语。",
-    "type": "genesis",
-    "from": "创世记 11:9",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 26
-  },
-  {
-    "id": 19,
-    "uuid": "genesis-19",
-    "hitokoto": "你要离开本地、亲族、父家，往我所要指示你的地去。",
-    "type": "genesis",
-    "from": "创世记 12:1",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 26
-  },
-  {
-    "id": 20,
-    "uuid": "genesis-20",
-    "hitokoto": "我必叫你成为大国。",
-    "type": "genesis",
-    "from": "创世记 12:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 11
-  },
-  {
-    "id": 21,
-    "uuid": "genesis-21",
-    "hitokoto": "亚伯兰信耶和华，耶和华就以此为他的义。",
-    "type": "genesis",
-    "from": "创世记 15:6",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 22,
-    "uuid": "genesis-22",
-    "hitokoto": "我是你的盾牌，必大大地赏赐你。",
-    "type": "genesis",
-    "from": "创世记 15:1",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 23,
-    "uuid": "genesis-23",
-    "hitokoto": "耶和华岂有难成的事吗？",
-    "type": "genesis",
-    "from": "创世记 18:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 13
-  },
-  {
-    "id": 24,
-    "uuid": "genesis-24",
-    "hitokoto": "耶和华必预备。",
-    "type": "genesis",
-    "from": "创世记 22:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 8
-  },
-  {
-    "id": 25,
-    "uuid": "genesis-25",
-    "hitokoto": "我也与你同在，你无论往哪里去，我必保佑你。",
-    "type": "genesis",
-    "from": "创世记 28:15",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 26,
-    "uuid": "genesis-26",
-    "hitokoto": "你不给我祝福，我就不容你去。",
-    "type": "genesis",
-    "from": "创世记 32:26",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 15
-  },
-  {
-    "id": 27,
-    "uuid": "genesis-27",
-    "hitokoto": "你与神与人较力，都得了胜。",
-    "type": "genesis",
-    "from": "创世记 32:28",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 15
-  },
-  {
-    "id": 28,
-    "uuid": "genesis-28",
-    "hitokoto": "耶和华与他同在，他就百事顺利。",
-    "type": "genesis",
-    "from": "创世记 39:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 16
-  },
-  {
-    "id": 29,
-    "uuid": "genesis-29",
-    "hitokoto": "我怎能作这大恶，得罪神呢？",
-    "type": "genesis",
-    "from": "创世记 39:9",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 16
-  },
-  {
-    "id": 30,
-    "uuid": "genesis-30",
-    "hitokoto": "神使我忘了一切的困苦。",
-    "type": "genesis",
-    "from": "创世记 41:51",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 31,
-    "uuid": "genesis-31",
-    "hitokoto": "神的意思原是好的。",
-    "type": "genesis",
-    "from": "创世记 50:20",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 11
-  },
-  {
-    "id": 32,
-    "uuid": "genesis-32",
-    "hitokoto": "神必定看顾你们。",
-    "type": "genesis",
-    "from": "创世记 50:24",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 11
-  }
-  ,
-  {
-    "id": 33,
-    "uuid": "exodus-33",
-    "hitokoto": "有不认识约瑟的新王起来，治理埃及。",
+    "id": 50,
+    "uuid": "exodus-50",
+    "bibleverses": "因为我耶和华是医治你的。",
     "type": "exodus",
-    "from": "出埃及记 1:8",
+    "from": "出埃及记 15:26",
     "creator": "bible",
     "created_at": "0",
-    "length": 17
+    "length": 10
   },
   {
-    "id": 34,
-    "uuid": "exodus-34",
-    "hitokoto": "神听见他们的哀声，就记念他与亚伯拉罕、以撒、雅各所立的约。",
-    "type": "exodus",
-    "from": "出埃及记 2:24",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 30
-  },
-  {
-    "id": 35,
-    "uuid": "exodus-35",
-    "hitokoto": "耶和华的使者从荆棘里的火焰中向摩西显现。",
-    "type": "exodus",
-    "from": "出埃及记 3:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 36,
-    "uuid": "exodus-36",
-    "hitokoto": "不要近前来，当把你脚上的鞋脱下来，因为你所站之地是圣地。",
-    "type": "exodus",
-    "from": "出埃及记 3:5",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 28
-  },
-  {
-    "id": 37,
-    "uuid": "exodus-37",
-    "hitokoto": "我下来是要救他们脱离埃及人的手，领他们到流奶与蜜之地。",
-    "type": "exodus",
-    "from": "出埃及记 3:8",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 28
-  },
-  {
-    "id": 38,
-    "uuid": "exodus-38",
-    "hitokoto": "我必与你同在。",
-    "type": "exodus",
-    "from": "出埃及记 3:12",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 8
-  },
-  {
-    "id": 39,
-    "uuid": "exodus-39",
-    "hitokoto": "我是自有永有的。",
-    "type": "exodus",
-    "from": "出埃及记 3:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 8
-  },
-  {
-    "id": 40,
-    "uuid": "exodus-40",
-    "hitokoto": "谁造人的口呢？岂不是我耶和华吗？",
-    "type": "exodus",
-    "from": "出埃及记 4:11",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 41,
-    "uuid": "exodus-41",
-    "hitokoto": "现在去吧，我必赐你口才，指教你所当说的话。",
-    "type": "exodus",
-    "from": "出埃及记 4:12",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 42,
-    "uuid": "exodus-42",
-    "hitokoto": "我要用伸出来的膀臂救赎你们。",
-    "type": "exodus",
-    "from": "出埃及记 6:6",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 16
-  },
-  {
-    "id": 43,
-    "uuid": "exodus-43",
-    "hitokoto": "容我的百姓去，好事奉我。",
+    "id": 51,
+    "uuid": "exodus-51",
+    "bibleverses": "容我的百姓去，好事奉我。",
     "type": "exodus",
     "from": "出埃及记 8:1",
     "creator": "bible",
@@ -431,90 +121,9 @@
     "length": 14
   },
   {
-    "id": 44,
-    "uuid": "exodus-44",
-    "hitokoto": "这血要作记号，我一见这血，就越过你们去。",
-    "type": "exodus",
-    "from": "出埃及记 12:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 45,
-    "uuid": "exodus-45",
-    "hitokoto": "你们要记念这日，守为耶和华的节。",
-    "type": "exodus",
-    "from": "出埃及记 12:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 46,
-    "uuid": "exodus-46",
-    "hitokoto": "耶和华在云柱中领他们的路，在火柱中光照他们。",
-    "type": "exodus",
-    "from": "出埃及记 13:21",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 47,
-    "uuid": "exodus-47",
-    "hitokoto": "不要惧怕，只管站住，看耶和华所施行的拯救。",
-    "type": "exodus",
-    "from": "出埃及记 14:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 48,
-    "uuid": "exodus-48",
-    "hitokoto": "耶和华必为你们争战，你们只管静默。",
-    "type": "exodus",
-    "from": "出埃及记 14:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 49,
-    "uuid": "exodus-49",
-    "hitokoto": "耶和华是我的力量，我的诗歌，也成了我的拯救。",
-    "type": "exodus",
-    "from": "出埃及记 15:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 50,
-    "uuid": "exodus-50",
-    "hitokoto": "因为我耶和华是医治你的（Jehovah-Rapha）",
-    "type": "exodus",
-    "from": "出埃及记 15:26",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 10
-  }
-  ,
-  {
-    "id": 51,
-    "uuid": "exodus-51",
-    "hitokoto": "我伸手攻击埃及，将以色列人从他们中间领出来。",
-    "type": "exodus",
-    "from": "出埃及记 7:5",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
     "id": 52,
     "uuid": "exodus-52",
-    "hitokoto": "耶和华吩咐摩西说：“你进去见法老，对他说：‘耶和华这样说：容我的百姓去，好事奉我。",
+    "bibleverses": "耶和华吩咐摩西说：“你进去见法老，对他说：容我的百姓去，好事奉我。”",
     "type": "exodus",
     "from": "出埃及记 8:1",
     "creator": "bible",
@@ -524,7 +133,7 @@
   {
     "id": 53,
     "uuid": "exodus-53",
-    "hitokoto": 耶和华对摩西说：“你向天伸手，使埃及地黑暗；这黑暗似乎摸得着。”,
+    "bibleverses": "耶和华对摩西说：“你向天伸手，使埃及地黑暗；这黑暗似乎摸得着。”",
     "type": "exodus",
     "from": "出埃及记 10:21",
     "creator": "bible",
@@ -532,293 +141,33 @@
     "length": 24
   },
   {
-    "id": 54,
-    "uuid": "exodus-54",
-    "hitokoto": "这血要在你们所住的房屋上作记号；我一见这血，就越过你们去。",
-    "type": "exodus",
-    "from": "出埃及记 12:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 55,
-    "uuid": "exodus-55",
-    "hitokoto": "你们要记念这日，守为耶和华的节，作为你们世世代代永远的定例。",
-    "type": "exodus",
-    "from": "出埃及记 12:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 56,
-    "uuid": "exodus-56",
-    "hitokoto": "这夜是耶和华的夜，因为耶和华领他们出了埃及地。",
-    "type": "exodus",
-    "from": "出埃及记 12:42",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 57,
-    "uuid": "exodus-57",
-    "hitokoto": "日间，耶和华在云柱中领他们的路；夜间，在火柱中光照他们。",
-    "type": "exodus",
-    "from": "出埃及记 13:21",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 58,
-    "uuid": "exodus-58",
-    "hitokoto": "摩西对百姓说：“不要惧怕，只管站住！看耶和华今天向你们所要施行的拯救。”",
-    "type": "exodus",
-    "from": "出埃及记 14:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 22
-  },
-  {
-    "id": 59,
-    "uuid": "exodus-59",
-    "hitokoto": "耶和华必为你们争战；你们只管静默，不要作声。",
-    "type": "exodus",
-    "from": "出埃及记 14:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 60,
-    "uuid": "exodus-60",
-    "hitokoto": "耶和华是我的力量，我的诗歌，也成了我的拯救。",
-    "type": "exodus",
-    "from": "出埃及记 15:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 61,
-    "uuid": "exodus-61",
-    "hitokoto": "耶和华啊，众神之中，谁能像你？谁能像你——至圣至荣，可颂可畏，施行奇事？",
-    "type": "exodus",
-    "from": "出埃及记 15:11",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 62,
-    "uuid": "exodus-62",
-    "hitokoto": "因为我耶和华是医治你的（Jehovah-Rapha）",
-    "type": "exodus",
-    "from": "出埃及记 15:26",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 10
-  },
-  {
-    "id": 63,
-    "uuid": "exodus-63",
-    "hitokoto": "耶和华对摩西说：“我要将粮食从天降给你们。",
-    "type": "exodus",
-    "from": "出埃及记 16:4",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 12
-  },
-  {
-    "id": 64,
-    "uuid": "exodus-64",
-    "hitokoto": "你击打磐石，从磐石里必有水流出来，使百姓可以喝。",
-    "type": "exodus",
-    "from": "出埃及记 17:6",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 65,
-    "uuid": "exodus-65",
-    "hitokoto": "摩西何时举手，以色列人就得胜，何时垂手，亚玛力人就得胜。",
-    "type": "exodus",
-    "from": "出埃及记 17:11",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 16
-  },
-  {
-    "id": 66,
-    "uuid": "exodus-66",
-    "hitokoto": "摩西筑了一座坛，起名叫“耶和华尼西”（耶和华是我旌旗）。",
-    "type": "exodus",
-    "from": "出埃及记 17:15",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 6
-  },
-  {
-    "id": 67,
-    "uuid": "exodus-67",
-    "hitokoto": "如今你们若实在听从我的话，遵守我的约，就要在万民中作属我的子民。",
-    "type": "exodus",
-    "from": "出埃及记 19:5",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 68,
-    "uuid": "exodus-68",
-    "hitokoto": "你们要归我作祭司的国度，为圣洁的国民。",
-    "type": "exodus",
-    "from": "出埃及记 19:6",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 69,
-    "uuid": "exodus-69",
-    "hitokoto": "第一诫：除了我以外，你不可有别的神。",
-    "type": "exodus",
-    "from": "出埃及记 20:3",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 70,
-    "uuid": "exodus-70",
-    "hitokoto": "第二诫：不可为自己雕刻偶像。",
-    "type": "exodus",
-    "from": "出埃及记 20:4",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 10
-  },
-  {
-    "id": 71,
-    "uuid": "exodus-71",
-    "hitokoto": "第三诫：不可妄称耶和华你神的名。",
-    "type": "exodus",
-    "from": "出埃及记 20:7",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 72,
-    "uuid": "exodus-72",
-    "hitokoto": "第四诫：当记念安息日，守为圣日。",
-    "type": "exodus",
-    "from": "出埃及记 20:8",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 14
-  },
-  {
-    "id": 73,
-    "uuid": "exodus-73",
-    "hitokoto": "第五诫：当孝敬父母，使你的日子在耶和华你神所赐你的地上得以长久。",
-    "type": "exodus",
-    "from": "出埃及记 20:12",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
-    "id": 74,
-    "uuid": "exodus-74",
-    "hitokoto": "第六诫：不可杀人。",
-    "type": "exodus",
-    "from": "出埃及记 20:13",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 6
-  },
-  {
-    "id": 75,
-    "uuid": "exodus-75",
-    "hitokoto": "第七诫：不可奸淫。",
-    "type": "exodus",
-    "from": "出埃及记 20:14",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 6
-  },
-  {
-    "id": 76,
-    "uuid": "exodus-76",
-    "hitokoto": "第八诫：不可偷盗。",
-    "type": "exodus",
-    "from": "出埃及记 20:15",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 6
-  },
-  {
-    "id": 77,
-    "uuid": "exodus-77",
-    "hitokoto": "第九诫：不可作假见证陷害人。",
-    "type": "exodus",
-    "from": "出埃及记 20:16",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 8
-  },
-  {
-    "id": 78,
-    "uuid": "exodus-78",
-    "hitokoto": "第十诫：不可贪恋人的房屋……并他一切所有的。",
-    "type": "exodus",
-    "from": "出埃及记 20:17",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 6
-  },
-  {
-    "id": 79,
-    "uuid": "exodus-79",
-    "hitokoto": "看哪，我差遣使者在你前面，在路上保护你，领你到我所预备的地方去。",
-    "type": "exodus",
-    "from": "出埃及记 23:20",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 18
-  },
-  {
     "id": 80,
     "uuid": "exodus-80",
-    "hitokoto": "众百姓说：“耶和华所吩咐的，我们都必遵守行。”",
+    "bibleverses": "众百姓说：“耶和华所吩咐的，我们都必遵守行。”",
     "type": "exodus",
     "from": "出埃及记 24:7",
     "creator": "bible",
     "created_at": "0",
     "length": 18
-  }
+  },
   {
-  "id": 81,
-  "uuid": "exodus-81",
-  "hitokoto": "我要恩待谁就恩待谁，要怜悯谁就怜悯谁。",
-  "type": "exodus",
-  "from": "出埃及记 33:19",
-  "creator": "bible",
-  "created_at": "0",
-  "length": 22
-},
-{
-  "id": 82,
-  "uuid": "exodus-82",
-  "hitokoto": "耶和华，耶和华，是有怜悯有恩典的神，不轻易发怒，并有丰盛的慈爱和诚实。为千万代存留慈爱，赦免罪孽、过犯和罪恶。",
-  "type": "exodus",
-  "from": "出埃及记 34:6-7",
-  "creator": "bible",
-  "created_at": "0",
-  "length": 56
-}
+    "id": 81,
+    "uuid": "exodus-81",
+    "bibleverses": "我要恩待谁就恩待谁，要怜悯谁就怜悯谁。",
+    "type": "exodus",
+    "from": "出埃及记 33:19",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 82,
+    "uuid": "exodus-82",
+    "bibleverses": "耶和华，耶和华，是有怜悯有恩典的神，不轻易发怒，并有丰盛的慈爱和诚实。",
+    "type": "exodus",
+    "from": "出埃及记 34:6-7",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 56
+  }
 ]
