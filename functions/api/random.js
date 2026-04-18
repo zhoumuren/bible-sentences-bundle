@@ -1,31 +1,36 @@
 export async function onRequest({ request }) {
   const url = new URL(request.url);
 
-  // 获取参数
-  const category = url.searchParams.get("c");
+  // 获取参数（默认 genesis）
+  const book = url.searchParams.get("book") || "genesis";
 
-  // 你的分类（目前是 a-l）
-  const categories = ["a","b","c","d","e","f","g","h","i","j","k","l"];
+  try {
+    // 从你自己仓库读取
+    const apiUrl = `${url.origin}/sentences/${book}.json`;
 
-  // 随机分类
-  const key = category || categories[Math.floor(Math.random() * categories.length)];
+    const res = await fetch(apiUrl);
+    const data = await res.json();
 
-  // 拼接 JSON 地址
-  const apiUrl = `https://bibleverses.mentu.faith/sentences/${key}.json`;
+    // 随机一句
+    const random = data[Math.floor(Math.random() * data.length)];
 
-  // 获取数据
-  const res = await fetch(apiUrl);
-  const data = await res.json();
+    return new Response(JSON.stringify({
+      book: book,
+      data: random
+    }), {
+      headers: {
+        "content-type": "application/json"
+      }
+    });
 
-  // 随机一句
-  const random = data[Math.floor(Math.random() * data.length)];
-
-  return new Response(JSON.stringify({
-    category: key,
-    data: random
-  }), {
-    headers: {
-      "content-type": "application/json"
-    }
-  });
+  } catch (e) {
+    return new Response(JSON.stringify({
+      error: "读取失败",
+      detail: e.toString()
+    }), {
+      headers: {
+        "content-type": "application/json"
+      }
+    });
+  }
 }
