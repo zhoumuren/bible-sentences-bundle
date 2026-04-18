@@ -1,110 +1,92 @@
 [
   {
-  "id": 1,
-  "name": "创世记",
-  "desc": "Genesis - 创世记",
-  "key": "genesis",
-  "created_at": "2026-04-18T10:48:09Z",
-  "updated_at": "2026-04-18T10:48:12Z",
-  "path": "./sentences/genesis.json"
-}
+    "id": 1,
+    "name": "摩西五经",
+    "desc": "Pentateuch - 摩西五经",
+    "key": "pentateuch",
+    "created_at": "2026-04-18T10:48:09Z",
+    "updated_at": "2026-04-18T10:48:12Z",
+    "path": "./sentences/pentateuch.json"
+  },
   {
     "id": 2,
-    "name": "漫画",
-    "desc": "Comic - 漫画",
-    "key": "b",
+    "name": "历史书",
+    "desc": "Historical - 历史书",
+    "key": "historical",
     "created_at": "2020-05-15T10:52:16Z",
     "updated_at": "2020-05-15T10:52:50.929Z",
-    "path": "./sentences/b.json"
+    "path": "./sentences/historical.json"
   },
   {
     "id": 3,
-    "name": "游戏",
-    "desc": "Game - 游戏",
-    "key": "c",
+    "name": "诗歌智慧书",
+    "desc": "Wisdom - 诗歌智慧书",
+    "key": "wisdom",
     "created_at": "2020-05-15T10:53:35Z",
     "updated_at": "2020-05-15T10:53:38Z",
-    "path": "./sentences/c.json"
+    "path": "./sentences/wisdom.json"
   },
   {
     "id": 4,
-    "name": "文学",
-    "desc": "Literature - 文学。主要收录现代文学：小说、散文、戏剧。",
-    "key": "d",
+    "name": "大先知书",
+    "desc": "Major Prophets - 大先知书",
+    "key": "major_prophets",
     "created_at": "2020-05-15T10:54:46.263Z",
     "updated_at": "2020-05-15T10:54:46.263Z",
-    "path": "./sentences/d.json"
+    "path": "./sentences/major_prophets.json"
   },
   {
     "id": 5,
-    "name": "原创",
-    "desc": "Original - 原创",
-    "key": "e",
+    "name": "小先知书",
+    "desc": "Minor Prophets - 小先知书",
+    "key": "minor_prophets",
     "created_at": "2020-05-15T10:59:39Z",
     "updated_at": "2020-05-15T10:59:42Z",
-    "path": "./sentences/e.json"
+    "path": "./sentences/minor_prophets.json"
   },
   {
     "id": 6,
-    "name": "网络",
-    "desc": "Internet - 来自网络",
-    "key": "f",
+    "name": "四福音",
+    "desc": "Gospels - 四福音",
+    "key": "gospels",
     "created_at": "2020-05-15T11:02:46.356Z",
     "updated_at": "2020-05-15T11:02:46.356Z",
-    "path": "./sentences/f.json"
+    "path": "./sentences/gospels.json"
   },
   {
     "id": 7,
-    "name": "其他",
-    "desc": "Other - 其他",
-    "key": "g",
+    "name": "使徒行传",
+    "desc": "Acts - 使徒行传",
+    "key": "acts",
     "created_at": "2020-05-15T11:01:51Z",
     "updated_at": "2020-05-15T11:01:54Z",
-    "path": "./sentences/g.json"
+    "path": "./sentences/acts.json"
   },
   {
     "id": 8,
-    "name": "影视",
-    "desc": "Video - 影视",
-    "key": "h",
+    "name": "保罗书信",
+    "desc": "Pauline Epistles - 保罗书信",
+    "key": "pauline_epistles",
     "created_at": "2020-05-15T11:02:33Z",
     "updated_at": "2020-05-15T11:02:36Z",
-    "path": "./sentences/h.json"
+    "path": "./sentences/pauline_epistles.json"
   },
   {
     "id": 9,
-    "name": "诗词",
-    "desc": "Poem - 诗词。主要收录中国古代文学，如：诗、歌、词、赋、曲等。",
-    "key": "i",
+    "name": "普通书信",
+    "desc": "General Epistles - 普通书信",
+    "key": "general_epistles",
     "created_at": "2020-05-15T11:05:38.877Z",
     "updated_at": "2020-05-15T11:06:15.035Z",
-    "path": "./sentences/i.json"
+    "path": "./sentences/general_epistles.json"
   },
   {
     "id": 10,
-    "name": "网易云",
-    "desc": "NCM - 网易云。主要收录网易云音乐热评。",
-    "key": "j",
+    "name": "启示录",
+    "desc": "Revelation - 启示录",
+    "key": "revelation",
     "created_at": "2020-05-15T11:05:34.269Z",
     "updated_at": "2020-05-15T11:06:18.123Z",
-    "path": "./sentences/j.json"
-  },
-  {
-    "id": 11,
-    "name": "哲学",
-    "desc": "Philosophy - 哲学",
-    "key": "k",
-    "created_at": "2020-05-15T11:05:08.67Z",
-    "updated_at": "2020-05-15T11:06:19.836Z",
-    "path": "./sentences/k.json"
-  },
-  {
-    "id": 12,
-    "name": "抖机灵",
-    "desc": "Funny - 抖机灵",
-    "key": "l",
-    "created_at": "2020-05-15T11:05:31.663Z",
-    "updated_at": "2020-05-15T11:06:22.007Z",
-    "path": "./sentences/l.json"
+    "path": "./sentences/revelation.json"
   }
 ]
