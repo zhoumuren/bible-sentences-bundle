@@ -9,15 +9,7 @@ export async function onRequest({ request }) {
   const maxLength = parseInt(url.searchParams.get("max_length") || "999");
 
   try {
-    let list = Array.isArray(data) ? data : [];
-
-    if (list.length === 0) {
-      return new Response(JSON.stringify({
-        error: "数据为空"
-      }), {
-        headers: { "content-type": "application/json" }
-      });
-    }
+    let list = data;
 
     // 长度过滤
     let filtered = list.filter(item => {
@@ -40,14 +32,13 @@ export async function onRequest({ request }) {
       verse: random.verse
     };
 
-    // 文本输出（兼容 hitokoto）
+    // 文本输出
     if (encode === "text") {
       return new Response(
-        `${result.hitokoto} —— ${result.from}`,
+        result.hitokoto + " —— " + result.from,
         {
           headers: {
-            "content-type": `text/plain; charset=${charset}`,
-            "Access-Control-Allow-Origin": "*"
+            "content-type": `text/plain; charset=${charset}`
           }
         }
       );
