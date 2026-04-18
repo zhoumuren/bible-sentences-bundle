@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "uuid": "gospels-1",
+    "hitokoto": "神爱世人，甚至将他的独生子赐给他们。",
+    "type": "gospels",
+    "from": "约翰福音 3:16",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 2,
+    "uuid": "gospels-2",
+    "hitokoto": "天国近了，你们应当悔改。",
+    "type": "gospels",
+    "from": "马太福音 4:17",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 14
+  },
+  {
+    "id": 3,
+    "uuid": "gospels-3",
+    "hitokoto": "来跟从我，我要叫你们得人如得鱼一样。",
+    "type": "gospels",
+    "from": "马太福音 4:19",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 20
+  }
+]
