@@ -12,16 +12,6 @@
   {
     "id": 2,
     "uuid": "genesis-2",
-    "hitokoto": "地是空虚混沌，渊面黑暗；神的灵运行在水面上。",
-    "type": "genesis",
-    "from": "创世记 1:2",
-    "creator": "bible",
-    "created_at": "0",
-    "length": 24
-  },
-  {
-    "id": 3,
-    "uuid": "genesis-3",
     "hitokoto": "神说：“要有光”，就有了光。",
     "type": "genesis",
     "from": "创世记 1:3",
@@ -30,23 +20,303 @@
     "length": 16
   },
   {
+    "id": 3,
+    "uuid": "genesis-3",
+    "hitokoto": "神说：“我们要照着我们的形像、按着我们的样式造人。”",
+    "type": "genesis",
+    "from": "创世记 1:26",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 30
+  },
+  {
     "id": 4,
     "uuid": "genesis-4",
-    "hitokoto": "神看光是好的，就把光暗分开了。",
+    "hitokoto": "神就照着自己的形像造人，乃是照着他的形像造男造女。",
     "type": "genesis",
-    "from": "创世记 1:4",
+    "from": "创世记 1:27",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 28
+  },
+  {
+    "id": 5,
+    "uuid": "genesis-5",
+    "hitokoto": "神看着一切所造的都甚好。",
+    "type": "genesis",
+    "from": "创世记 1:31",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 16
+  },
+  {
+    "id": 6,
+    "uuid": "genesis-6",
+    "hitokoto": "到第七日，神造物的工已经完毕，就在第七日安息了。",
+    "type": "genesis",
+    "from": "创世记 2:2",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 26
+  },
+  {
+    "id": 7,
+    "uuid": "genesis-7",
+    "hitokoto": "耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人。",
+    "type": "genesis",
+    "from": "创世记 2:7",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 32
+  },
+  {
+    "id": 8,
+    "uuid": "genesis-8",
+    "hitokoto": "那人独居不好，我要为他造一个配偶帮助他。",
+    "type": "genesis",
+    "from": "创世记 2:18",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 9,
+    "uuid": "genesis-9",
+    "hitokoto": "人要离开父母，与妻子连合，二人成为一体。",
+    "type": "genesis",
+    "from": "创世记 2:24",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 10,
+    "uuid": "genesis-10",
+    "hitokoto": "你们不一定死。",
+    "type": "genesis",
+    "from": "创世记 3:4",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 8
+  },
+  {
+    "id": 11,
+    "uuid": "genesis-11",
+    "hitokoto": "女人的后裔要伤你的头；你要伤他的脚跟。",
+    "type": "genesis",
+    "from": "创世记 3:15",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 12,
+    "uuid": "genesis-12",
+    "hitokoto": "你本是尘土，仍要归于尘土。",
+    "type": "genesis",
+    "from": "创世记 3:19",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 16
+  },
+  {
+    "id": 13,
+    "uuid": "genesis-13",
+    "hitokoto": "我岂是看守我兄弟的吗？",
+    "type": "genesis",
+    "from": "创世记 4:9",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 13
+  },
+  {
+    "id": 14,
+    "uuid": "genesis-14",
+    "hitokoto": "以诺与神同行，神将他取去，他就不在世了。",
+    "type": "genesis",
+    "from": "创世记 5:24",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 24
+  },
+  {
+    "id": 15,
+    "uuid": "genesis-15",
+    "hitokoto": "惟有挪亚在耶和华眼前蒙恩。",
+    "type": "genesis",
+    "from": "创世记 6:8",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 16
+  },
+  {
+    "id": 16,
+    "uuid": "genesis-16",
+    "hitokoto": "地还存留的时候，稼穑、寒暑、冬夏、昼夜就永不停息了。",
+    "type": "genesis",
+    "from": "创世记 8:22",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 28
+  },
+  {
+    "id": 17,
+    "uuid": "genesis-17",
+    "hitokoto": "我把虹放在云彩中，这就可作我与地立约的记号了。",
+    "type": "genesis",
+    "from": "创世记 9:13",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 26
+  },
+  {
+    "id": 18,
+    "uuid": "genesis-18",
+    "hitokoto": "那城名叫巴别，因为耶和华在那里变乱天下人的言语。",
+    "type": "genesis",
+    "from": "创世记 11:9",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 26
+  },
+  {
+    "id": 19,
+    "uuid": "genesis-19",
+    "hitokoto": "你要离开本地、亲族、父家，往我所要指示你的地去。",
+    "type": "genesis",
+    "from": "创世记 12:1",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 26
+  },
+  {
+    "id": 20,
+    "uuid": "genesis-20",
+    "hitokoto": "我必叫你成为大国。",
+    "type": "genesis",
+    "from": "创世记 12:2",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 11
+  },
+  {
+    "id": 21,
+    "uuid": "genesis-21",
+    "hitokoto": "亚伯兰信耶和华，耶和华就以此为他的义。",
+    "type": "genesis",
+    "from": "创世记 15:6",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 22
+  },
+  {
+    "id": 22,
+    "uuid": "genesis-22",
+    "hitokoto": "我是你的盾牌，必大大地赏赐你。",
+    "type": "genesis",
+    "from": "创世记 15:1",
     "creator": "bible",
     "created_at": "0",
     "length": 18
   },
   {
-    "id": 5,
-    "uuid": "genesis-5",
-    "hitokoto": "神称光为昼，称暗为夜。",
+    "id": 23,
+    "uuid": "genesis-23",
+    "hitokoto": "耶和华岂有难成的事吗？",
     "type": "genesis",
-    "from": "创世记 1:5",
+    "from": "创世记 18:14",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 13
+  },
+  {
+    "id": 24,
+    "uuid": "genesis-24",
+    "hitokoto": "耶和华必预备。",
+    "type": "genesis",
+    "from": "创世记 22:14",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 8
+  },
+  {
+    "id": 25,
+    "uuid": "genesis-25",
+    "hitokoto": "我也与你同在，你无论往哪里去，我必保佑你。",
+    "type": "genesis",
+    "from": "创世记 28:15",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 24
+  },
+  {
+    "id": 26,
+    "uuid": "genesis-26",
+    "hitokoto": "你不给我祝福，我就不容你去。",
+    "type": "genesis",
+    "from": "创世记 32:26",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 15
+  },
+  {
+    "id": 27,
+    "uuid": "genesis-27",
+    "hitokoto": "你与神与人较力，都得了胜。",
+    "type": "genesis",
+    "from": "创世记 32:28",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 15
+  },
+  {
+    "id": 28,
+    "uuid": "genesis-28",
+    "hitokoto": "耶和华与他同在，他就百事顺利。",
+    "type": "genesis",
+    "from": "创世记 39:2",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 16
+  },
+  {
+    "id": 29,
+    "uuid": "genesis-29",
+    "hitokoto": "我怎能作这大恶，得罪神呢？",
+    "type": "genesis",
+    "from": "创世记 39:9",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 16
+  },
+  {
+    "id": 30,
+    "uuid": "genesis-30",
+    "hitokoto": "神使我忘了一切的困苦。",
+    "type": "genesis",
+    "from": "创世记 41:51",
     "creator": "bible",
     "created_at": "0",
     "length": 14
+  },
+  {
+    "id": 31,
+    "uuid": "genesis-31",
+    "hitokoto": "神的意思原是好的。",
+    "type": "genesis",
+    "from": "创世记 50:20",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 11
+  },
+  {
+    "id": 32,
+    "uuid": "genesis-32",
+    "hitokoto": "神必定看顾你们。",
+    "type": "genesis",
+    "from": "创世记 50:24",
+    "creator": "bible",
+    "created_at": "0",
+    "length": 11
   }
 ]
