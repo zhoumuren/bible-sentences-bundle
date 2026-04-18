@@ -1,13 +1,13 @@
 [
   {
-    "id": 1,
-    "name": "动画",
-    "desc": "Anime - 动画",
-    "key": "a",
-    "created_at": "2020-05-15T10:48:09Z",
-    "updated_at": "2020-05-15T10:48:12Z",
-    "path": "./sentences/a.json"
-  },
+  "id": 1,
+  "name": "创世记",
+  "desc": "Genesis - 创世记",
+  "key": "genesis",
+  "created_at": "2026-04-18T10:48:09Z",
+  "updated_at": "2026-04-18T10:48:12Z",
+  "path": "./sentences/genesis.json"
+}
   {
     "id": 2,
     "name": "漫画",
